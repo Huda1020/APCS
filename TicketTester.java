@@ -25,7 +25,7 @@ public class TicketTester {
 		{
 			ticketType = "group";
 		}
-		System.out.println(name + " purchased a " + grade + " " + ticketType + " ticket for "+ ticket.ticketCost() + "   dollars.  "  +"their confirmation code is    " +  PasswordGenerator.generatePassword1());
+		System.out.println(name + " purchased a " + grade + " " + ticketType + " ticket for "+ ticket.ticketCost() + " dollars.  "  +" Their confirmation code is" +  PasswordGenerator.generatePassword1());
 		
 	}
 }
